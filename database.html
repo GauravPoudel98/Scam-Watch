@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scam Report Database</title>
+    <link rel="stylesheet" href="css/database.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="report.html">Report Scam</a></li>
+                <li><a href="database.html" class="active">Scam Database</a></li>
+                <li><a href="help.html">Get Help</a></li>
+            </ul>
+        </nav>
+        <h1>Scam Watch</h1>
+    </header>
+
+    <section class="database-view">
+        <h2>Scam Reports</h2>
+        <table id="reportsTable">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Date</th>
+                    <th>Title</th>
+                    <th>Type of Scam</th>
+                    <th>Description</th>
+                    <th>Platform</th>
+                </tr>
+            </thead>
+            <tbody id="reportsContainer">
+                <!-- Data will be inserted here via JavaScript -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="report.html">Report Scam</a></li>
+                <li><a href="database.html">Scam Database</a></li>
+                <li><a href="help.html">Get Help</a></li>
+            </ul>
+        </nav>
+        <h1>Scam Watch</h1>
+    </footer>
+
+    <script src="js/database.js"></script>
+</body>
+</html>

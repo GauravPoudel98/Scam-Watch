@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Scam - Scam Watch</title>
+    <link rel="stylesheet" href="css/report.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="report.html" class="active">Report Scam</a></li>
+                <li><a href="database.html">Scam Database</a></li>
+                <li><a href="help.html">Get Help</a></li>
+            </ul>
+        </nav>
+        <h1>Scam Watch</h1>
+    </header>
+
+    <section class="introduction">
+        <h2>Report a Scam</h2>
+        <p>Please provide details about the scam you encountered. Your report will help others stay informed and safe.</p>
+    </section>
+
+    <section class="report-form">
+        <form id="scamReportForm">
+            <label for="userName">User Name:</label>
+            <input type="text" id="userName" name="userName" required>
+        
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+        
+            <label for="scamType">Type of Scam:</label>
+            <input type="text" id="scamType" name="scamType" required>
+        
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+        
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+        
+            <label for="platform">Platform:</label>
+            <input type="text" id="platform" name="platform" required>
+        
+            <button type="submit" id="submitReportButton">Submit Report</button>
+        </form>        
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="report.html">Report Scam</a></li>
+                <li><a href="database.html">Scam Database</a></li>
+                <li><a href="help.html">Get Help</a></li>
+            </ul>
+        </nav>
+        <h1>Scam Watch</h1>
+    </footer>
+
+    <script src="js/report.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
